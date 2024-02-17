@@ -41,7 +41,7 @@ How to start your project
 
 ```bash
 cd WebApi
-dotnet run
+dotnet run --project WebApi
 ```
 
 <h2 id="contribute">📫 Contribute</h2>
