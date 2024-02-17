@@ -9,7 +9,7 @@ namespace WebApi.Tests.Controllers
     public class UsersControllerTest
     {
         [Fact]
-        public void UserController_CreateUser_ReturnsNewUser()
+        public void UsersController_CreateUser_ReturnsNewUser()
         {
             // Arrange
             var userRepository = new UserRepositoryTest();
@@ -29,7 +29,7 @@ namespace WebApi.Tests.Controllers
         }
 
         [Fact]
-        public void UserController_CreateUser_ReturnsConflict()
+        public void UsersController_CreateUser_ReturnsConflict()
         {
             // Arrange
             var userRepository = new UserRepositoryTest();
@@ -48,7 +48,7 @@ namespace WebApi.Tests.Controllers
         }
 
         [Fact]
-        public void UserController_GetUserByName_ReturnsUser()
+        public void UsersController_GetUserByName_ReturnsUser()
         {
             // Arrange
             var userRepository = new UserRepositoryTest();
@@ -69,7 +69,7 @@ namespace WebApi.Tests.Controllers
         }
 
         [Fact]
-        public void UserController_GetUserByName_ReturnsNotFound()
+        public void UsersController_GetUserByName_ReturnsNotFound()
         {
             // Arrange
             var userRepository = new UserRepositoryTest();
@@ -83,7 +83,7 @@ namespace WebApi.Tests.Controllers
         }
 
         [Fact]
-        public void UserController_DeleteUser_ReturnsOk()
+        public void UsersController_DeleteUser_ReturnsOk()
         {
             // Arrange
             var userRepository = new UserRepositoryTest();
@@ -102,7 +102,7 @@ namespace WebApi.Tests.Controllers
         }
 
         [Fact]
-        public void UserController_DeleteUser_ReturnsNotFound()
+        public void UsersController_DeleteUser_ReturnsNotFound()
         {
             // Arrange
             var userRepository = new UserRepositoryTest();
@@ -116,7 +116,7 @@ namespace WebApi.Tests.Controllers
         }
 
         [Fact]
-        public void UserController_UpdateUser_ReturnsUpdatedUser()
+        public void UsersController_UpdateUser_ReturnsUpdatedUser()
         {
             // Arrange
             var userRepository = new UserRepositoryTest();
@@ -141,7 +141,7 @@ namespace WebApi.Tests.Controllers
         }
 
         [Fact]
-        public void UserController_UpdateUser_ReturnsNotFound()
+        public void UsersController_UpdateUser_ReturnsNotFound()
         {
             // Arrange
             var userRepository = new UserRepositoryTest();
@@ -159,7 +159,7 @@ namespace WebApi.Tests.Controllers
         }
 
         [Fact]
-        public void UserController_GetAll_ReturnsUsers()
+        public void UsersController_GetAll_ReturnsUsers()
         {
             // Arrange
             var userRepository = new UserRepositoryTest();
@@ -185,7 +185,7 @@ namespace WebApi.Tests.Controllers
         }
 
         [Fact]
-        public void UserController_GetAll_ReturnsEmptyList()
+        public void UsersController_GetAll_ReturnsEmptyList()
         {
             // Arrange
             var userRepository = new UserRepositoryTest();
